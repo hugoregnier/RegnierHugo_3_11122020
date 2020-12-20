@@ -1,15 +1,36 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
-
+header {
+    text-align: center;
+}
+h1, h4 {
+    font-family: 'Shrikhand', cursive;
+}
+main img {
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+}
 body {
     margin: auto 0;
+}
+.menu {
+    background-color: #adadad;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+}
+.headerMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuCard {
+    background-color: white;
+    border-radius: 20px;
 }
 footer {
     color: white;
     background: #303030;
     padding: 20px;
-}
-footer > h4 {
-    font-family: 'Shrikhand', cursive;
 }
