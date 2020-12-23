@@ -3,34 +3,55 @@ html {
 }
 header {
     text-align: center;
+    margin: -18px auto;
 }
 h1, h4 {
     font-family: 'Shrikhand', cursive;
 }
-main img {
-    object-fit: cover;
-    height: 220px;
-    width: 100%;
+
+main {
+    
+}
+
+.entriesMenu > h3 {
+    margin-left: 15px;
 }
 body {
+    
     margin: auto 0;
 }
+.imgMenu {
+    background-image: url("/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    height: 275px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
 .menu {
-    background-color: #adadad;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 20px;
+    background-color: #F2F2F2;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -56px;
 }
 .headerMain {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto 15px;
 }
 .menuCard {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 15px #b3b3b3;
 }
 footer {
     color: white;
     background: #303030;
     padding: 20px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
 }
