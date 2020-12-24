@@ -71,3 +71,25 @@ footer {
     font-size: 110%;
     margin-bottom: 8px;
 }
+.square_btn {
+    padding: 12px 40px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(-5deg, #9356DC 25%, #FF79DA 100%);
+    box-shadow: 1px 1px 8px black;
+}
+.buttonOrder {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+/*.square_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #9356DC 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #9356DC 0%, #f76a35 100%);
+}*/
