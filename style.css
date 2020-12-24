@@ -10,7 +10,7 @@ h1, h2, h4 {
     font-weight: 300;
 }
 .far.fa-heart {
-    font-size: x-large;
+    font-size: 130%;
     margin-right: 25px;
     font-weight: 300;
 }
@@ -65,4 +65,9 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
+    font-size: 90%;
+}
+.textCard {
+    font-size: 110%;
+    margin-bottom: 8px;
 }
