@@ -5,6 +5,15 @@ header {
     text-align: center;
     margin: -18px auto;
 }
+.fa-arrow-left {
+    color: black;
+    text-decoration: none;
+    float: left;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: -35px;
+}
 h1, h2, h4 {
     font-family: 'Shrikhand', cursive;
     font-weight: 300;
@@ -21,9 +30,13 @@ h3 {
     font-weight: 100;
     text-transform: uppercase;
     font-size: medium;
+    text-decoration: underline solid #99E2D0 3px;
+    text-underline-position: under; 
+    /* border-bottom: 1px solid black;
+    border-spacing: 10px;*/
+   
 }
 body {
-    
     margin: auto 0;
 }
 .imgMenu {
@@ -38,6 +51,7 @@ body {
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     margin-top: -56px;
+    height: 1200px;
 }
 .headerMain {
     display: flex;
@@ -82,11 +96,19 @@ footer {
 .buttonOrder {
     display: flex;
     justify-content: center;
-    margin: 40px auto;
+    margin: 60px auto;
 }
 
 footer > a {
     text-decoration: none;
+    color: white;
+}
+.fa-utensils  {
+    margin-right: 14px;
+}
+.fa-hands-helping {
+    font-size: small;
+    margin-right: 10px;
 }
 
 /*.square_btn:hover {

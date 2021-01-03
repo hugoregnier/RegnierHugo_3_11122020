@@ -1,0 +1,61 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: auto 0;
+}
+header {
+    text-align: center;
+    margin: -18px auto;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 300;
+}
+
+.place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.place > p {
+    margin-left: 10px;
+}
+.reservation {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b3b3b3;
+    height: 400px;
+}
+.reservation > h2 {
+    max-width: 240px;
+}
+.square_btn {
+    padding: 12px 40px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(-5deg, #9356DC 25%, #FF79DA 100%);
+    box-shadow: 1px 1px 8px black;
+}
+footer {
+    color: white;
+    background: #303030;
+    padding: 20px;
+}
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+footer > h4 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 300; 
+}
+.fa-utensils  {
+    margin-right: 14px;
+}
+.fa-hands-helping {
+    font-size: small;
+    margin-right: 10px;
+}
