@@ -73,14 +73,14 @@ footer > h4 {
     height: 1500px;
 }
 .menuRestaurants h4 {
-    margin-left: 20px;
+    
 }
 .menuRestaurants {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgb(110, 110, 110);
     width: 92%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .menuRestaurants img {
     height: 250px;
@@ -88,4 +88,17 @@ footer > h4 {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+.menuRestaurants a {
+    text-decoration: none;
+}
+.descriptionMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descriptionWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
