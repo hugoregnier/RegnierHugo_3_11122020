@@ -40,6 +40,15 @@ a {
     max-width: 300px;
     margin-top: -10px;
 }
+.fTitle {
+    margin-left: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+#restaurants {
+    margin-left: 15px;
+    font-weight: bold;
+}
 .buttonExplore {
     margin-top: 30px;
 }
@@ -73,7 +82,8 @@ footer > h4 {
 }
 .restaurantsWrapper {
     background-color: #F2F2F2;
-    height: 1500px;
+    height: 1100px;
+    margin-top: 60px;
 }
 .runWrapper {
     background-color: #F2F2F2;
@@ -108,11 +118,11 @@ footer > h4 {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgb(110, 110, 110);
-    width: 92%;
+    width: 91%;
     margin: 30px auto;
 }
 .menuRestaurants img {
-    height: 250px;
+    height: 150px;
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 15px;
