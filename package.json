@@ -1,0 +1,19 @@
+{
+  "name": "regnierhugo_3_11122020",
+  "version": "1.0.0",
+  "description": "\"# RegnierHugo_3_11122020\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./anim.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoregnier/RegnierHugo_3_11122020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugoregnier/RegnierHugo_3_11122020/issues"
+  },
+  "homepage": "https://github.com/hugoregnier/RegnierHugo_3_11122020#readme"
+}
