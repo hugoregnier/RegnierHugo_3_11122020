@@ -1,0 +1,27 @@
+.animCard {
+    width: 0px;
+    background-color: black;
+    margin: -10px;
+}
+.menuCard:hover .animCard  {
+    width: 60px;
+}
+.menuCard {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.cardWrapper {
+    width: 100%;
+    padding-right: 20px;
+}
+.textCard, .price {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.priceWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
