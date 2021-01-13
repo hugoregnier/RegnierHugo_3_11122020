@@ -1,13 +1,24 @@
 .animCard {
     width: 60px;
-    background-color: black;
+    background-color: #99E2D0;
     margin: -10px;
     margin-right: -70px;
+    display: inline-block;
 }
 .menuCard:hover .animCard  {
     width: 60px;
     transform: translate(-60px, 0);
     transition: transform 600ms ease-in-out;
+        & > .turnArrow {
+        transform: rotate(360deg);
+        transition: transform 600ms ease-in-out;
+    }
+}
+.turnArrow {
+    color: white;
+    text-align: center;
+    margin-top: 28px;
+    font-size: large;
 }
 .menuCard {
     display: flex;
@@ -18,7 +29,7 @@
     width: 100%;
     padding-right: 27px;
 }
-.textCard, .price {
+.textCard, .underDerscription {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
