@@ -112,7 +112,11 @@ footer {
     text-decoration: none;
     color: #FFF;
     background-image: linear-gradient(-5deg, #9356DC 25%, #FF79DA 100%);
-    box-shadow: 1px 1px 8px black;
+    box-shadow: 1px 1px 4px black;
+}
+.square_btn:hover {
+    box-shadow: 1px 1px 12px black;
+    background-image: linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
 }
 .buttonOrder {
     display: flex;
