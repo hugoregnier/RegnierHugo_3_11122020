@@ -51,13 +51,15 @@
 
 .fas.fa-heart {
     opacity: 0;
-    color: blueviolet;
+    background: -webkit-linear-gradient( #af6efd, #fcade5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .far.fa-heart.host {
    margin-right: -24px;
 }
 .fas.fa-heart:hover {
-    animation: come 3s;
+    animation: come 3s ;
 }
 @keyframes come {
     from {
