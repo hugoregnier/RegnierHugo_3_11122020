@@ -173,3 +173,17 @@ h4 {
     width: 80px;
     text-align: center;
 }
+@media only screen and (min-device-width : 880px) {
+.restaurantsWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 20px;
+    justify-content: space-between;
+    }
+.menuRestaurants {
+    margin: 15px 50px;
+}
+.backgroundRestaurants {
+    height: 390px;
+}   
+}

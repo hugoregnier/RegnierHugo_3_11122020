@@ -40,7 +40,7 @@
   padding-right: 27px;
 }
 
-.textCard, .underDerscription {
+.underDerscription {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -58,7 +58,7 @@
   color: blueviolet;
 }
 
-.far.fa-heart {
+.far.fa-heart.host {
   margin-right: -24px;
 }
 
