@@ -85,6 +85,9 @@ footer > h4 {
     font-size: small;
     margin-right: 10px;
 }
+.fa-store {
+    color: #9356DC !important;
+}
 .backgroundRestaurants {
     background-color: #F2F2F2;
     height: 1130px;
@@ -96,6 +99,13 @@ footer > h4 {
 }
 .runWrapper {
     background-color: #F2F2F2;
+    border-radius: 15px;
+    margin: 22px 25px;
+    height: 70px;
+    box-shadow: 3px 2px 7px #d3d3d3;
+}
+.runWrapperStore {
+    background-color: #EDD4FF;
     border-radius: 15px;
     margin: 22px 25px;
     height: 70px;

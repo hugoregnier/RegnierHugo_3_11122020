@@ -135,7 +135,7 @@
   right: 0;
   z-index: 99;
   background: -webkit-linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
-  animation: topleft 2000ms forwards cubic-bezier(1, -0.78, 0.87, 1.08);
+  animation: topleft 2400ms forwards cubic-bezier(1, -0.78, 0.87, 1.08);
 }
 
 @keyframes topleft {
@@ -148,29 +148,17 @@
 }
 /* --------------------------------------Animation du loader spinner------------------------ */
 .lds-hourglass {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
-  margin-left: 140px;
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
   text-align: center;
+  background-image: url("./images/logo/couverts1.png");
+  animation: lds-hourglass 2s infinite;
 }
 
 .loader > p {
   text-align: center;
   margin-top: 250px;
-}
-
-.lds-hourglass {
-  display: block;
-  border-radius: 50%;
-  width: 0;
-  height: 0;
-  margin: auto;
-  box-sizing: border-box;
-  border: 32px solid black;
-  border-color: black transparent black transparent;
-  animation: lds-hourglass 1.2s infinite;
 }
 
 @keyframes lds-hourglass {
