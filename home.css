@@ -183,12 +183,12 @@ h4 {
     width: 80px;
     text-align: center;
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
 .news {
     margin-left: 570px;
 }
     }
-@media only screen and (min-device-width : 1024px) {
+@media only screen and (min-width : 1024px) {
 .restaurantsWrapper {
     display: flex;
     flex-wrap: nowrap;
