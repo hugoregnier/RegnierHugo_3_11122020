@@ -18,8 +18,8 @@
 }
 
 .menuCard:hover .price {
-  transform: translate(-60px, 0);
-  transition: transform 600ms ease-in-out;
+  margin-right: 60px;
+  transition: 600ms ease-in-out;
 }
 
 .turnArrow {
@@ -37,7 +37,7 @@
 
 .cardWrapper {
   width: 100%;
-  padding-right: 27px;
+  white-space: nowrap;
 }
 
 .underDerscription {
