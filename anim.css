@@ -1,3 +1,4 @@
+/* ------------------------------------------------CSS Home ------------------------------------------ */
 body {
   font-family: "Roboto", sans-serif;
   margin: auto 0;
@@ -197,6 +198,7 @@ body {
   }
 }
 
+/* ------------------------------------------------CSS des Menus ------------------------------------------ */
 .menuPage header {
   text-align: center;
   margin: -18px auto;
@@ -227,7 +229,8 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   font-size: medium;
-  text-decoration: underline solid #99e2d0 0.2rem;
+  text-decoration: underline solid #99e2d0;
+  text-decoration-thickness: 3px;
   text-underline-position: under;
 }
 .menuPage .imgMenuFr {
