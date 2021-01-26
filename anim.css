@@ -1,7 +1,337 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto 0;
+}
+
+.homePage header {
+  text-align: center;
+  margin: -13px auto;
+  font-family: "Shrikhand", cursive;
+}
+.homePage a {
+  text-decoration: none;
+  color: black;
+}
+.homePage .place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3d3d3;
+}
+.homePage .place > p {
+  margin-left: 10px;
+}
+.homePage .reservation {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 280px;
+}
+.homePage .reservation > h2 {
+  max-width: 240px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.homePage .reservation > p {
+  max-width: 300px;
+  margin-top: -10px;
+}
+.homePage .fTitle {
+  margin-left: 15px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.homePage #restaurants {
+  margin-left: 15px;
+  font-weight: bold;
+}
+.homePage .buttonExplore {
+  margin-top: 30px;
+}
+.homePage .square_btn {
+  padding: 12px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(-5deg, #9356dc 25%, #ff79da 100%);
+  box-shadow: 1px 1px 4px black;
+}
+.homePage .square_btn:hover {
+  box-shadow: 1px 1px 12px black;
+  background-image: linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
+}
+.homePage footer {
+  color: white;
+  background: #303030;
+  padding: 20px;
+}
+.homePage footer > a {
+  text-decoration: none;
+  color: white;
+}
+.homePage footer > h4 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 300;
+}
+.homePage .fa-utensils {
+  margin-right: 14px;
+}
+.homePage .fa-hands-helping {
+  font-size: small;
+  margin-right: 10px;
+}
+.homePage .fa-store {
+  color: #9356dc !important;
+}
+.homePage .backgroundRestaurants {
+  background-color: #f2f2f2;
+  height: 1130px;
+  margin-top: 60px;
+  display: flow-root;
+}
+.homePage .restaurantsWrapper {
+  margin-top: 45px;
+}
+.homePage .runWrapper {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  margin: 22px 25px;
+  height: 70px;
+  box-shadow: 3px 2px 7px #d3d3d3;
+}
+.homePage .runWrapperStore {
+  background-color: #edd4ff;
+  border-radius: 15px;
+  margin: 22px 25px;
+  height: 70px;
+  box-shadow: 3px 2px 7px #d3d3d3;
+}
+.homePage .numero {
+  background-color: #9356dc;
+  border-radius: 25px;
+  width: 21px;
+  padding: 4px;
+}
+.homePage .numero > p {
+  margin: 0 6px;
+  color: white;
+}
+.homePage .running {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin-left: -15px;
+}
+.homePage .fa-mobile-alt,
+.homePage .fa-list-ul,
+.homePage .fa-store {
+  margin: auto 20px;
+  font-size: large;
+  color: #646464;
+}
+.homePage .menuRestaurants {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #6e6e6e;
+  width: 91%;
+  margin: 30px auto;
+}
+.homePage .menuRestaurants img {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.homePage .descriptionMenu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-bottom: 13px;
+}
+.homePage h4 {
+  margin-bottom: 5px;
+  margin-top: 12px;
+}
+.homePage .descriptionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homePage .heart {
+  margin-right: 25px;
+  font-size: 24px;
+  font-weight: 100 !important;
+  height: 35px;
+}
+.homePage .news {
+  position: absolute;
+  margin-left: 240px;
+  background-color: #99e2d0;
+  color: #216e3f;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 15px;
+  width: 80px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .homePage .news {
+    margin-left: 570px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .homePage .restaurantsWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 20px;
+    justify-content: space-between;
+  }
+  .homePage .menuRestaurants {
+    margin: 15px 50px;
+  }
+  .homePage .backgroundRestaurants {
+    height: 390px;
+  }
+}
+
+.menuPage header {
+  text-align: center;
+  margin: -18px auto;
+}
+.menuPage .fa-arrow-left {
+  color: black;
+  text-decoration: none;
+  float: left;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: -35px;
+}
+.menuPage h1,
+.menuPage h2,
+.menuPage h4 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 300;
+}
+.menuPage .far.fa-heart {
+  font-size: 130%;
+  margin-right: 25px;
+  font-weight: 300;
+}
+.menuPage h3 {
+  margin-left: 15px;
+  margin-top: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: medium;
+  text-decoration: underline solid #99e2d0 3px;
+  text-underline-position: under;
+}
+.menuPage .imgMenuFr {
+  background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  height: 275px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menuPage .imgMenuNe {
+  background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  height: 275px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menuPage .imgMenuPg {
+  background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  height: 275px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menuPage .imgMenuDs {
+  background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  height: 275px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menuPage .menu {
+  background-color: #f2f2f2;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  margin-top: -56px;
+  height: 1200px;
+}
+.menuPage .headerMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -50px 15px;
+}
+.menuPage .headerMain > h2 {
+  margin-top: 25px;
+  font-size: 175%;
+}
+.menuPage .menuCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px 12px;
+  box-shadow: 0px 0px 15px #b3b3b3;
+  max-width: 100%;
+}
+.menuPage footer {
+  color: white;
+  background: #303030;
+  padding: 20px;
+}
+.menuPage .underDerscription {
+  font-size: 90%;
+}
+.menuPage .textCard {
+  font-size: 110%;
+  margin-bottom: 8px;
+}
+.menuPage .square_btn {
+  padding: 12px 40px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(-5deg, #9356dc 25%, #ff79da 100%);
+  box-shadow: 1px 1px 4px black;
+}
+.menuPage .square_btn:hover {
+  box-shadow: 1px 1px 12px black;
+  background-image: linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
+}
+.menuPage .buttonOrder {
+  display: flex;
+  justify-content: center;
+  margin: 60px auto;
+}
+.menuPage footer > a {
+  text-decoration: none;
+  color: white;
+}
+.menuPage .fa-utensils {
+  margin-right: 14px;
+}
+.menuPage .fa-hands-helping {
+  font-size: small;
+  margin-right: 10px;
+}
+.menuPage .price {
+  margin-left: 10px;
+  padding-right: 5px;
+}
+
 /* --------------------------------------Animation dans les cartes menu avec icone rotatif------------------------ */
 .animCard {
   width: 60px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   margin: -10px;
   margin-right: -70px;
   display: inline-block;

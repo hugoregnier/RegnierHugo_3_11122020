@@ -1,165 +1,503 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto 0;
+}
+.homePage {
+  header {
+    text-align: center;
+    margin: -13px auto;
+    font-family: "Shrikhand", cursive;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+  }
+  .place > p {
+    margin-left: 10px;
+  }
+  .reservation {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 280px;
+  }
+  .reservation > h2 {
+    max-width: 240px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .reservation > p {
+    max-width: 300px;
+    margin-top: -10px;
+  }
+  .fTitle {
+    margin-left: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  #restaurants {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .buttonExplore {
+    margin-top: 30px;
+  }
+  .square_btn {
+    padding: 12px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(-5deg, #9356dc 25%, #ff79da 100%);
+    box-shadow: 1px 1px 4px black;
+  }
+  .square_btn:hover {
+    box-shadow: 1px 1px 12px black;
+    background-image: linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
+  }
+  footer {
+    color: white;
+    background: #303030;
+    padding: 20px;
+  }
+  footer > a {
+    text-decoration: none;
+    color: white;
+  }
+  footer > h4 {
+    font-family: "Shrikhand", cursive;
+    font-weight: 300;
+  }
+  .fa-utensils {
+    margin-right: 14px;
+  }
+  .fa-hands-helping {
+    font-size: small;
+    margin-right: 10px;
+  }
+  .fa-store {
+    color: #9356dc !important;
+  }
+  .backgroundRestaurants {
+    background-color: #f2f2f2;
+    height: 1130px;
+    margin-top: 60px;
+    display: flow-root;
+  }
+  .restaurantsWrapper {
+    margin-top: 45px;
+  }
+  .runWrapper {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin: 22px 25px;
+    height: 70px;
+    box-shadow: 3px 2px 7px #d3d3d3;
+  }
+  .runWrapperStore {
+    background-color: #edd4ff;
+    border-radius: 15px;
+    margin: 22px 25px;
+    height: 70px;
+    box-shadow: 3px 2px 7px #d3d3d3;
+  }
+
+  .numero {
+    background-color: #9356dc;
+    border-radius: 25px;
+    width: 21px;
+    padding: 4px;
+  }
+  .numero > p {
+    margin: 0 6px;
+    color: white;
+  }
+  .running {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-left: -15px;
+  }
+  .fa-mobile-alt,
+  .fa-list-ul,
+  .fa-store {
+    margin: auto 20px;
+    font-size: large;
+    color: rgb(100, 100, 100);
+  }
+  .menuRestaurants {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(110, 110, 110);
+    width: 91%;
+    margin: 30px auto;
+  }
+  .menuRestaurants img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .descriptionMenu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 13px;
+  }
+  h4 {
+    margin-bottom: 5px;
+    margin-top: 12px;
+  }
+
+  .descriptionWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .heart {
+    margin-right: 25px;
+    font-size: 24px;
+    font-weight: 100 !important;
+    height: 35px;
+  }
+
+  .news {
+    position: absolute;
+    margin-left: 240px;
+    background-color: #99e2d0;
+    color: rgb(33, 110, 63);
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    width: 80px;
+    text-align: center;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .news {
+      margin-left: 570px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .restaurantsWrapper {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: 20px 20px;
+      justify-content: space-between;
+    }
+    .menuRestaurants {
+      margin: 15px 50px;
+    }
+    .backgroundRestaurants {
+      height: 390px;
+    }
+  }
+}
+
+.menuPage {
+  header {
+    text-align: center;
+    margin: -18px auto;
+  }
+  .fa-arrow-left {
+    color: black;
+    text-decoration: none;
+    float: left;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: -35px;
+  }
+  h1,
+  h2,
+  h4 {
+    font-family: "Shrikhand", cursive;
+    font-weight: 300;
+  }
+  .far.fa-heart {
+    font-size: 130%;
+    margin-right: 25px;
+    font-weight: 300;
+  }
+
+  h3 {
+    margin-left: 15px;
+    margin-top: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: medium;
+    text-decoration: underline solid #99e2d0 3px;
+    text-underline-position: under;
+  }
+  .imgMenuFr {
+    background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    height: 275px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgMenuNe {
+    background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    height: 275px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgMenuPg {
+    background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: 275px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgMenuDs {
+    background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    height: 275px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .menu {
+    background-color: #f2f2f2;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -56px;
+    height: 1200px;
+  }
+  .headerMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -50px 15px;
+  }
+  .headerMain > h2 {
+    margin-top: 25px;
+    font-size: 175%;
+  }
+  .menuCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 12px;
+    box-shadow: 0px 0px 15px #b3b3b3;
+    max-width: 100%;
+  }
+  footer {
+    color: white;
+    background: #303030;
+    padding: 20px;
+  }
+  .underDerscription {
+    font-size: 90%;
+  }
+  .textCard {
+    font-size: 110%;
+    margin-bottom: 8px;
+  }
+  .square_btn {
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(-5deg, #9356dc 25%, #ff79da 100%);
+    box-shadow: 1px 1px 4px black;
+  }
+  .square_btn:hover {
+    box-shadow: 1px 1px 12px black;
+    background-image: linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
+  }
+  .buttonOrder {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+  }
+
+  footer > a {
+    text-decoration: none;
+    color: white;
+  }
+  .fa-utensils {
+    margin-right: 14px;
+  }
+  .fa-hands-helping {
+    font-size: small;
+    margin-right: 10px;
+  }
+  .price {
+    margin-left: 10px;
+    padding-right: 5px;
+  }
+}
+
 /* --------------------------------------Animation dans les cartes menu avec icone rotatif------------------------ */
 
 .animCard {
-    width: 60px;
-    background-color: #99E2D0;
-    margin: -10px;
-    margin-right: -70px;
-    display: inline-block;
+  width: 60px;
+  background-color: #99e2d0;
+  margin: -10px;
+  margin-right: -70px;
+  display: inline-block;
 }
-.menuCard:hover .animCard  {
-    width: 60px;
-    transform: translate(-60px, 0);
+.menuCard:hover .animCard {
+  width: 60px;
+  transform: translate(-60px, 0);
+  transition: transform 600ms ease-in-out;
+  & > .turnArrow {
+    transform: rotate(360deg);
     transition: transform 600ms ease-in-out;
-        & > .turnArrow {
-        transform: rotate(360deg);
-        transition: transform 600ms ease-in-out;
-        }
+  }
 }
 .menuCard:hover .price {
-    margin-right: 60px;
-    transition: 600ms ease-in-out;
+  margin-right: 60px;
+  transition: 600ms ease-in-out;
 }
-
 
 .turnArrow {
-    color: white;
-    text-align: center;
-    margin-top: 28px;
-    font-size: large;
+  color: white;
+  text-align: center;
+  margin-top: 28px;
+  font-size: large;
 }
 .menuCard {
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 .cardWrapper {
-    width: 100%;
-    white-space: nowrap;
+  width: 100%;
+  white-space: nowrap;
 }
 .underDerscription {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .priceWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* --------------------------------------Animation Remplissage des coeurs------------------------ */
 
 .fas.fa-heart {
-    opacity: 0;
-    background: -webkit-linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  opacity: 0;
+  background: -webkit-linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .far.fa-heart.host {
-   margin-right: -24px;
+  margin-right: -24px;
 }
 .fas.fa-heart:hover {
-    animation: come 3s forwards;
+  animation: come 3s forwards;
 }
 @keyframes come {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-/* --------------------------------------Animation Fadein dans les menus------------------------ */ 
+/* --------------------------------------Animation Fadein dans les menus------------------------ */
 
 .menuCard {
-    opacity: 0;
-    animation: fadein 1000ms forwards;
+  opacity: 0;
+  animation: fadein 1000ms forwards;
 }
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 #second {
-    animation-delay: 200ms;
-} 
+  animation-delay: 200ms;
+}
 #third {
-    animation-delay: 300ms;
+  animation-delay: 300ms;
 }
 #fourth {
-    animation-delay: 400ms;
+  animation-delay: 400ms;
 }
 #fifth {
-    animation-delay: 500ms;
+  animation-delay: 500ms;
 }
 #sixth {
-    animation-delay: 600ms;
+  animation-delay: 600ms;
 }
 #seventh {
-    animation-delay: 700ms;
+  animation-delay: 700ms;
 }
 #eighth {
-    animation-delay: 800ms;
+  animation-delay: 800ms;
 }
 #ninth {
-    animation-delay: 900ms;
+  animation-delay: 900ms;
 }
 #tenth {
-    animation-delay: 1000ms;
+  animation-delay: 1000ms;
 }
 
-/* --------------------------------------Animation du back loader spinner------------------------ */ 
+/* --------------------------------------Animation du back loader spinner------------------------ */
 
 .loader {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    background: -webkit-linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
-    animation: topleft 2400ms forwards cubic-bezier(1,-0.78,.87,1.08);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: -webkit-linear-gradient(-5deg, #af6efd 25%, #fcade5 100%);
+  animation: topleft 2400ms forwards cubic-bezier(1, -0.78, 0.87, 1.08);
 }
 @keyframes topleft {
-    from {
-        top: 0;
-    }
-    to {
-        top: 100%;
-    }
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
 }
 
 /* --------------------------------------Animation du loader spinner------------------------ */
 
 .lds-hourglass {
-    
-    width: 60px;
-    height: 60px;
-    margin: 20px auto;
-    text-align: center;
-    background-image: url("./images/logo/couverts1.png");
-    animation: lds-hourglass 2s infinite;
-  }
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+  background-image: url("./images/logo/couverts1.png");
+  animation: lds-hourglass 2s infinite;
+}
 .loader > p {
-    text-align: center;
-    margin-top: 250px;
+  text-align: center;
+  margin-top: 250px;
 }
 @keyframes lds-hourglass {
-    0% {
+  0% {
     transform: rotate(0);
     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-    50% {
+  }
+  50% {
     transform: rotate(900deg);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-    100% {
+  }
+  100% {
     transform: rotate(1800deg);
-    }
+  }
 }
-  
