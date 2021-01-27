@@ -203,13 +203,13 @@ body {
     .backgroundRestaurants {
       height: 390px;
     }
+    .bottomBar {
+      width: 1%;
+    }
   }
 }
 
-
-
 /* ------------------------------------------------CSS des Menus ------------------------------------------ */
-
 
 .menuPage {
   header {
@@ -243,7 +243,6 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     font-size: medium;
-    
   }
   .bottomBar {
     border-bottom: 3px solid #99e2d0;
@@ -355,6 +354,16 @@ body {
   .price {
     margin-left: 10px;
     padding-right: 5px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bottomBar {
+      width: 5%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .bottomBar {
+      width: 2%;
+    }
   }
 }
 

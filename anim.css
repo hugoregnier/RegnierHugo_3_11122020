@@ -196,6 +196,9 @@ body {
   .homePage .backgroundRestaurants {
     height: 390px;
   }
+  .homePage .bottomBar {
+    width: 1%;
+  }
 }
 
 /* ------------------------------------------------CSS des Menus ------------------------------------------ */
@@ -339,6 +342,16 @@ body {
 .menuPage .price {
   margin-left: 10px;
   padding-right: 5px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menuPage .bottomBar {
+    width: 5%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .menuPage .bottomBar {
+    width: 2%;
+  }
 }
 
 /* --------------------------------------Animation dans les cartes menu avec icone rotatif------------------------ */
