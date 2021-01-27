@@ -229,9 +229,12 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   font-size: medium;
-  text-decoration: underline solid #99e2d0;
-  text-decoration-thickness: 3px;
-  text-underline-position: under;
+}
+.menuPage .bottomBar {
+  border-bottom: 3px solid #99e2d0;
+  width: 10%;
+  margin-left: 15px;
+  margin-top: -13px;
 }
 .menuPage .imgMenuFr {
   background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
